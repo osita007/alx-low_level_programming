@@ -1,16 +1,18 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - prints single digits in base 10
- * Return: Always 0
- */int main(void)
+ * main Entry point
+ * Description: Prints char below 10
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
-	int num;
+	int a;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
+	for (a = 0; a < 10; a++)
+	{
+		putchar(a + '0');
+	}
 	putchar('\n');
-
 	return (0);
 }
