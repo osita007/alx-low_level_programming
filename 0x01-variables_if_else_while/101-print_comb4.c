@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - Prints 3 combination of numbwers
+ * main - Prints 3 combination of numbers
  *
- * Return: Always 0 (success)
+ * Return: Always (success)
  */
 int main(void)
 {
@@ -16,7 +17,7 @@ int main(void)
 			{
 				if (c < i && i < k)
 				{
-					putchar(c)
+					putchar(c);
 					putchar(i);
 					putchar(k);
 
