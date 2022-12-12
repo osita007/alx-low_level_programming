@@ -3,7 +3,7 @@
 /**
  * main - Prints 3 combination of numbwers
  *
- * Return: Always (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
