@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * add - adds two integers and return the result
+ * @a: int to be added to
+ * @b: int to be added to a
+ * Return: sum of a and b
  */
-int main(void)
+int add(int a, int b)
 {
-	times_table();
-	return (0);
+	int c;
+
+	c = a + b;
+
+	return (c);
 }
